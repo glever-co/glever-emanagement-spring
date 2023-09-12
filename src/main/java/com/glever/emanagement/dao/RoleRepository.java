@@ -11,5 +11,5 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @CrossOrigin("http://localhost:4200")
 @RepositoryRestResource(collectionResourceRel = "roles", path = "roles")
 public interface RoleRepository extends JpaRepository<Role, Integer> {
-    //Page<Role> findByRoleId(@Param("role_id") Integer roleId, Pageable pageable);
+
 }
